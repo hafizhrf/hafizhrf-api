@@ -4,16 +4,42 @@
   "description": "API Server for hafizhrf Portofolio",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hafizhrf/hafizhrf-api.git"
   },
+  "keywords": [
+    "Nodejs",
+    "typescript",
+    "express"
+  ],
   "author": "hafizhrf",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hafizhrf/hafizhrf-api/issues"
   },
-  "homepage": "https://github.com/hafizhrf/hafizhrf-api#readme"
+  "homepage": "https://github.com/hafizhrf/hafizhrf-api#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
