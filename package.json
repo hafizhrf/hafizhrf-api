@@ -1,0 +1,19 @@
+{
+  "name": "hafizhrf-api",
+  "version": "1.0.0",
+  "description": "API Server for hafizhrf Portofolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafizhrf/hafizhrf-api.git"
+  },
+  "author": "hafizhrf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafizhrf/hafizhrf-api/issues"
+  },
+  "homepage": "https://github.com/hafizhrf/hafizhrf-api#readme"
+}
